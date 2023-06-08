@@ -1,4 +1,5 @@
 import { FormLogin } from "../../components/FormLogin"
+import { Heading } from "../../components/Heading"
 import "../../style.css"
 
 export const Login = () => {
@@ -9,9 +10,10 @@ export const Login = () => {
                     <FormLogin/>
                 </div>
             </div>
-            <div className="sm:col-span-1 md:col-span-5  flex justify-center items-center">
+            <div className="sm:col-span-1 md:col-span-5  flex justify-center items-center  form-container">
                 <div className="text-center">
-                    <h1 className="form-container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quo tempora, accusantium deleniti officiis, temporibus illum illo voluptates totam doloribus soluta, quasi veniam nulla cumque possimus. Sint autem ipsam minus.</h1>
+                    <Heading size={"text-3xl"} text={"HELLO FRIEND!"} color={"text-white"} bold/>
+                    <h1 >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quo tempora, accusantium deleniti officiis, temporibus illum illo voluptates totam doloribus soluta, quasi veniam nulla cumque possimus. Sint autem ipsam minus.</h1>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { RadioButton } from "../RadioButton"
 import { TextField } from "../TextField"
 import { Button } from "../Button";
-import {useAuth} from '../../context/authContext'
+import { useAuth } from '../../context/authContext'
 import { useNavigate } from 'react-router-dom'
 
 export const FormRegister = () => {
